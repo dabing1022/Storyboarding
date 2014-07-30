@@ -10,8 +10,8 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="CAViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="Wxf-3O-U61"/>
+                        <viewControllerLayoutGuide type="bottom" id="V3m-jG-SOC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -75,8 +75,8 @@
             <objects>
                 <viewController id="OS3-VU-Bdd" customClass="CAPersonDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D5Z-oQ-d49"/>
-                        <viewControllerLayoutGuide type="bottom" id="UFa-nY-iKK"/>
+                        <viewControllerLayoutGuide type="top" id="FtH-Zf-RHC"/>
+                        <viewControllerLayoutGuide type="bottom" id="vt7-Z1-Wrv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nve-x0-tvo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -128,14 +128,14 @@
             <objects>
                 <viewController id="zwP-sO-K4m" customClass="CAScene2ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hVZ-bt-5bI"/>
-                        <viewControllerLayoutGuide type="bottom" id="E4l-wq-DEZ"/>
+                        <viewControllerLayoutGuide type="top" id="kb9-3z-PjX"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLb-R2-rZK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wVm-cH-O5h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scene 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe3-XI-bLn">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scene 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe3-XI-bLn">
                                 <rect key="frame" x="109" y="255" width="102" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -143,6 +143,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Fe3-XI-bLn" secondAttribute="centerY" id="3Cc-wr-99n"/>
+                            <constraint firstAttribute="centerX" secondItem="Fe3-XI-bLn" secondAttribute="centerX" id="Uii-4H-9uD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GvO-Su-Zvy">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="V3a-7A-MwB">
@@ -229,7 +233,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sn-wG-6iD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1014" y="90"/>
+            <point key="canvasLocation" x="-880" y="102"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

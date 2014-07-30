@@ -21,6 +21,7 @@
 		899A7FD219887FCC00F0597C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899A7FB419887FCC00F0597C /* UIKit.framework */; };
 		899A7FDA19887FCC00F0597C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 899A7FD819887FCC00F0597C /* InfoPlist.strings */; };
 		899A7FDC19887FCC00F0597C /* StoryboardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FDB19887FCC00F0597C /* StoryboardingTests.m */; };
+		899A7FE71988830A00F0597C /* CAScene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FE61988830A00F0597C /* CAScene2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		899A7FD719887FCC00F0597C /* StoryboardingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardingTests-Info.plist"; sourceTree = "<group>"; };
 		899A7FD919887FCC00F0597C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		899A7FDB19887FCC00F0597C /* StoryboardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardingTests.m; sourceTree = "<group>"; };
+		899A7FE51988830A00F0597C /* CAScene2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScene2ViewController.h; sourceTree = "<group>"; };
+		899A7FE61988830A00F0597C /* CAScene2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAScene2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				899A7FBF19887FCC00F0597C /* CAAppDelegate.h */,
 				899A7FC019887FCC00F0597C /* CAAppDelegate.m */,
 				899A7FC219887FCC00F0597C /* Main.storyboard */,
+				899A7FE51988830A00F0597C /* CAScene2ViewController.h */,
+				899A7FE61988830A00F0597C /* CAScene2ViewController.m */,
 				899A7FC519887FCC00F0597C /* CAViewController.h */,
 				899A7FC619887FCC00F0597C /* CAViewController.m */,
 				899A7FC819887FCC00F0597C /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				899A7FC119887FCC00F0597C /* CAAppDelegate.m in Sources */,
 				899A7FBD19887FCC00F0597C /* main.m in Sources */,
+				899A7FE71988830A00F0597C /* CAScene2ViewController.m in Sources */,
 				899A7FC719887FCC00F0597C /* CAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

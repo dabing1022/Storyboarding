@@ -22,6 +22,9 @@
 		899A7FDA19887FCC00F0597C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 899A7FD819887FCC00F0597C /* InfoPlist.strings */; };
 		899A7FDC19887FCC00F0597C /* StoryboardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FDB19887FCC00F0597C /* StoryboardingTests.m */; };
 		899A7FE71988830A00F0597C /* CAScene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FE61988830A00F0597C /* CAScene2ViewController.m */; };
+		899A7FEA1988851C00F0597C /* CAContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FE91988851C00F0597C /* CAContactListViewController.m */; };
+		899A7FED198886F100F0597C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FEC198886F100F0597C /* Person.m */; };
+		899A7FF01988893E00F0597C /* CAPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899A7FEF1988893E00F0597C /* CAPersonDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		899A7FDB19887FCC00F0597C /* StoryboardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardingTests.m; sourceTree = "<group>"; };
 		899A7FE51988830A00F0597C /* CAScene2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScene2ViewController.h; sourceTree = "<group>"; };
 		899A7FE61988830A00F0597C /* CAScene2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAScene2ViewController.m; sourceTree = "<group>"; };
+		899A7FE81988851C00F0597C /* CAContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAContactListViewController.h; sourceTree = "<group>"; };
+		899A7FE91988851C00F0597C /* CAContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAContactListViewController.m; sourceTree = "<group>"; };
+		899A7FEB198886F100F0597C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		899A7FEC198886F100F0597C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		899A7FEE1988893E00F0597C /* CAPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPersonDetailViewController.h; sourceTree = "<group>"; };
+		899A7FEF1988893E00F0597C /* CAPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPersonDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +129,14 @@
 				899A7FC219887FCC00F0597C /* Main.storyboard */,
 				899A7FE51988830A00F0597C /* CAScene2ViewController.h */,
 				899A7FE61988830A00F0597C /* CAScene2ViewController.m */,
+				899A7FE81988851C00F0597C /* CAContactListViewController.h */,
+				899A7FE91988851C00F0597C /* CAContactListViewController.m */,
+				899A7FEE1988893E00F0597C /* CAPersonDetailViewController.h */,
+				899A7FEF1988893E00F0597C /* CAPersonDetailViewController.m */,
 				899A7FC519887FCC00F0597C /* CAViewController.h */,
 				899A7FC619887FCC00F0597C /* CAViewController.m */,
+				899A7FEB198886F100F0597C /* Person.h */,
+				899A7FEC198886F100F0597C /* Person.m */,
 				899A7FC819887FCC00F0597C /* Images.xcassets */,
 				899A7FB719887FCC00F0597C /* Supporting Files */,
 			);
@@ -255,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899A7FED198886F100F0597C /* Person.m in Sources */,
 				899A7FC119887FCC00F0597C /* CAAppDelegate.m in Sources */,
+				899A7FF01988893E00F0597C /* CAPersonDetailViewController.m in Sources */,
 				899A7FBD19887FCC00F0597C /* main.m in Sources */,
 				899A7FE71988830A00F0597C /* CAScene2ViewController.m in Sources */,
 				899A7FC719887FCC00F0597C /* CAViewController.m in Sources */,
+				899A7FEA1988851C00F0597C /* CAContactListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
